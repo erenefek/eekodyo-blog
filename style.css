@@ -1,0 +1,83 @@
+/* Genel Ayarlar */
+body {
+    font-family: 'Georgia', serif; /* Edebiyat siteleri için en ideal, okunaklı font */
+    line-height: 1.8;
+    margin: 0;
+    color: #444;
+    background-color: #fdfaf6; /* Kağıt rengine yakın, göz yormayan bir arka plan */
+
+}
+    body {
+    background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url('arka-plan.jpg');
+}
+
+/* Üst Kısım (Header) */
+header {
+    background: #2c3e50; /* Koyu lacivert, ciddi ve güven veren bir ton */
+    color: #ecf0f1;
+    padding: 3rem 1rem;
+    text-align: center;
+    border-bottom: 5px solid #e67e22; /* Altına ince turuncu bir çizgi: Enerji katar */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+/* Menü (Navigasyon) */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #bdc3c7;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s; /* Renk geçişini yumuşatır */
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #e67e22; /* Fareyle üzerine gelince turuncu olur */
+}
+
+/* Ana İçerik Alanı */
+main {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Yazı Kartları */
+.post {
+    background: #fff;
+    padding: 40px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Çok hafif, modern bir gölge */
+    border-top: 3px solid #eee;
+}
+
+.post h2 {
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+.date {
+    color: #95a5a6;
+    font-size: 0.85rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Alt Kısım (Footer) */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #7f8c8d;
+    font-size: 0.8rem;
+}
